@@ -12,5 +12,5 @@ and a class diagram to assist you in your work (see the attached “UML Class Di
 that must be considered for the application. A systems analyst created the solution statements outlined in the requirements section of this task based on the 
 business requirements. You will use these solution statements to develop your application.
 
-Competencies: 430.02.05 : Classes and Interfaces, Object-Oriented Principles, Application Development, Exception Handling, User Interface Development
+Competencies: Classes and Interfaces, Object-Oriented Principles, Application Development, Exception Handling, User Interface Development
 
