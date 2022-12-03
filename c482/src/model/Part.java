@@ -1,0 +1,109 @@
+package model;
+
+
+/**
+ *
+ * @author Adina Williams
+ */
+
+/** This is the Part abstract class. */
+public abstract class Part {
+    private int id;
+    private String name;
+    private double price;
+    private int stock;
+    private int min;
+    private int max;
+
+    public Part(int id, String name, double price, int stock, int min, int max) {
+        this.id = id;
+        this.name = name;
+        this.price = price;
+        this.stock = stock;
+        this.min = min;
+        this.max = max;
+    }
+    /**
+     * @return The id
+     */
+    public int getId() {
+        return id;
+    }
+
+    /**
+     * @param id  The id to set
+     */
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    /**
+     * @return The name
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * @param name The name to set
+     */
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    /**
+     * @return The price
+     */
+    public double getPrice() {
+        return price;
+    }
+
+    /**
+     * @param price The price to set
+     */
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    /**
+     * @return The stock
+     */
+    public int getStock() {
+        return stock;
+    }
+
+    /**
+     * @param stock The stock to set
+     */
+    public void setStock(int stock) {
+        this.stock = stock;
+    }
+
+    /**
+     * @return The min
+     */
+    public int getMin() {
+        return min;
+    }
+
+    /**
+     * @param min  The min to set
+     */
+    public void setMin(int min) {
+        this.min = min;
+    }
+
+    /**
+     * @return The max
+     */
+    public int getMax() {
+        return max;
+    }
+
+    /**
+     * @param max The max to set
+     */
+    public void setMax(int max) {
+        this.max = max;
+    }
+}
